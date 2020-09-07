@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtid"
+            android:text="Customer ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtID"
+            android:text="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txtcustName"
+        android:text="Customer Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:textAlignment="textStart"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txtCUSTNAME"
+        android:text="Ganesh Aghav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtmobile"
+            android:text="Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtMOBILE"
+            android:text="+91 9021418001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtDevCat"
+            android:text="Device Tagegery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtDEVCAT"
+            android:text="Laptop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtprobuser"
+            android:text="Problem By Uer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtPROBBYUSER"
+            android:text="Batrry not working"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtaddress"
+            android:text="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtADDRESS"
+            android:text="Kandivalli West"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCreatedDate"
+            android:text="Created Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCREATEDDATE"
+            android:text="15-10-2019"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCreatedTime"
+            android:text="Created Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCREATEDTIME"
+            android:text="14:09 PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCallStatus"
+            android:text="Call Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCALLSTAATUS"
+            android:text="OPEN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCallAssinDate"
+            android:text="Call Assgin Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCALLASSINDATE"
+            android:text="16-10-2019"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCallAssinTime"
+            android:text="Call Assgin Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtCALLASSINTIME"
+            android:text="13:12 PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dip"
+            android:textStyle="bold"
+            android:textAlignment="textStart"/>
+
+    </LinearLayout>
+
+</LinearLayout>
